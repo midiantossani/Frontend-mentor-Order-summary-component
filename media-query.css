@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    section#container {
+        width: 90vw;
+        height: 375px;
+    }
+
+    section#container > div#image {
+        height: 30%;
+        width: 100vw;
+    }
+
+    section#container > div#section {
+        width: 100%;
+    }
+}

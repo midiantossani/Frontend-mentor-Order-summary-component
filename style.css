@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+main > section#container {
+    width: 400px;
+    height: 550px;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    transform: translate(-50%, -50%);
+}
+
+div#image {
+    background-image: url(images/illustration-hero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    height: 180px
+}
+
+div#section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px 10px 30px;
+    color: hsl(224, 23%, 55%);
+}
+
+div#section > h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+
+div#section > div#annual {
+    display: flex;
+    padding: 20px;
+}
+
+div#section > div#annual > a {
+    margin-left: 50px;
+}
+
+div#annual > a:hover {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+div#annual > div#annual-p {
+   margin: 0px 20px 0 20px;
+}
+
+div#annual-p > p > strong {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+section#container > section#form > form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 0 30px;
+}
+
+form > input {
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    border-style: none;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+form > input#ibutton {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    box-shadow: 0px 10px 20px 0px hsl(224, 46%, 84%);
+}
+
+form > input#ibutton:hover {
+    background-color: hsl(245, 74%, 62%);
+}
+
+form > a {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+form > a:hover {
+    color: hsl(223, 47%, 23%);
+}
